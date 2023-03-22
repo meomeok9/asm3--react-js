@@ -6,7 +6,6 @@ const dataSlide = createSlice({
   },
   reducers: {
     setData(state, action) {
-      
       state.data = action.payload;
     },
   },
